@@ -1,0 +1,193 @@
+<html>
+
+
+<head>
+	<title>WEB UAS</title>
+
+	<!-- metaname -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="javascript.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+</head>
+
+<body>
+	
+
+	<!----navbar---->
+	<div id="welcome">
+		<div class="bar1">
+			<nav>
+				<h2 class="logo">PICTURE HAS <span>STORY</span></h2>
+				<ul>
+					<li><a href="#">Home</a>
+					</li>
+					<li><a href="https://mzwaa.wordpress.com/">Profil
+							</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="https://www.instagram.com/mzwa.exe/">Instagram</a></li>
+					<li><a href="https://wa.me/62895425409600">Nomor</a></li>
+				</ul>
+
+			</nav>
+
+			<video id="myVideo" width="100%" height="100%" controls autoplay>
+				<source src="sut sut.mp4" type="video/mp4">
+				<source src="your-video-file.ogg" type="video/ogg">
+			</video>
+
+			<script>
+				var video = document.getElementById("myVideo");
+
+				video.addEventListener("click", function () {
+					if (video.requestFullscreen) {
+						video.requestFullscreen();
+					} else if (video.mozRequestFullScreen) {
+						video.mozRequestFullScreen();
+					} else if (video.webkitRequestFullscreen) {
+						video.webkitRequestFullscreen();
+					}
+				});
+			</script>
+
+			<!-- content diheader -->
+			<div class="content">
+				<h1>Mzwa<span>Photograph</span></h1>
+				<h3>UNIVERSITAS SEMARANG</h3>
+				<h4><br>"Fotografi adalah kisah</br>yang gagal diceritakan melalui kata-kata"</h4>
+
+				<!-- member login -->
+
+				<div class="newslatter">
+					<div class="member">
+						<header>FREE FOTAGE</header>
+						<form
+							action="https://drive.google.com/file/d/1s2YaH3ywriw46M321-BJgMgHD195qtKc/view?usp=sharing">
+							<div class="field email">
+								<div class="input-area">
+									<input type="text" placeholder="Email Address">
+									<i class="icon fas fa-envelope"></i>
+
+								</div>
+								<div class="error error-txt">Email can't be blank</div>
+							</div>
+							<div class="field password">
+								<div class="input-area">
+									<input type="password" placeholder="Password">
+									<i class="icon fas fa-lock"></i>
+									<i class="error error-icon fas fa-exclamation-circle"></i>
+								</div>
+								<div class="error error-txt">Password can't be blank</div>
+							</div>
+							<div class="pass-txt"><a href="#">Lupa password?</a></div>
+							<input type="submit" value="Login">
+						</form>
+						<div class="sign-txt">Not yet member? <a href="#">Signup now</a></div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<!-- galeri -->
+		<div class="service">
+			<div class="title">
+				<h2>HUNTING</h2>
+			</div>
+
+			  
+		<div class="container">
+			<img src="kpu.jpg" alt="Gambar 1">
+			<img src="HAHA.jpg" alt="Gambar 2">
+			<img src="smp.jpg" alt="Gambar 3">
+			<img src="hunting1.jpg" alt="Gambar 4">
+			<img src="jalan sehat.jpg" alt="Gambar 5">
+			<img src="hafis.jpg" alt="Gambar 6">
+		</div>
+
+		<div class="glitter">
+			<div class="title">
+				<h6>"Hidup tak akan menjadi beban jika kau bisa menjalaninya dengan ikhlas”</h6>
+			</div>
+
+			
+
+
+		  
+		<!-----service section start----------->
+
+
+
+		<div class="service">
+			<div class="title">
+				<h2>Partner With</h2>
+			</div>
+
+			<div class="box">
+				<div class="card">
+					<i class="GAMBAR"></i>
+					<h5>PT LuckyTextile</h5>
+					<div class="pra">
+						<p>Merupakan toko kain / textile di Kota Semarang. Toko ini menyediakan banyak jenis kain untuk
+							berbagai keperluan.</p>
+
+						<p style="text-align: center;">
+							<a class="button" href="#">Read More</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<i class="GAMBAR"></i>
+					<h5>JavaMicePro</h5>
+					<div class="pra">
+						<p>More Than 10 Years In MICE Managerial And Services
+							Tim kami bekerja secara profesional dan berpengalaman.</p>
+
+						<p style="text-align: center;">
+							<a class="button" href="#">Read More</a>
+						</p>
+					</div>
+				</div>
+
+				<div class="card">
+					<i class="GAMBAR"></i>
+					<h5>Freelance</h5>
+					<div class="pra">
+						<p>MZWA Photo/Videograph,Pekerjaan Part time Yang dibagi beberapa tim yang dibentuk oleh Saya
+							dan
+							Yusa Adi Nugroho.</p>
+
+						<p style="text-align: center;">
+							<a class="button" href="https://id.wikipedia.org/wiki/Tenaga_kerja#:~:text=Pekerja%20Lepas%20atau%20disebut%20dengan,telah%20disepakati%20dalam%20perjanjian%20tertulis.">Read More</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!------footer start--------->
+
+		<footer>
+			<p>Mzwa</p>
+			<p>Freelance Photograph</p>
+			<div class="social">
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-instagram"></i></a>
+				<a href="#"><i class="fab fa-dribbble"></i></a>
+			</div>
+		</footer>
+		<script src="login.js"></script>
+</body>
+
+</html>
